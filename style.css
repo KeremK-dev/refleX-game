@@ -1,0 +1,125 @@
+*{
+    user-select: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: linear-gradient(
+        to right,
+        rgb(161, 2, 2) ,
+        rgb(0, 0, 0) 80%);
+}
+
+#yapimci{
+    font-size: 42px;
+    color: white;
+}
+
+#genel_bilgi{
+    height: 80px;
+    width: 450px;
+    background-image: linear-gradient(
+        to left,
+        rgb(161, 2, 2) ,
+        rgb(0, 0, 0) 80%);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    border-radius: 40px;
+}
+
+.blg{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.dd{
+    height: 100px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+#bar{
+    height: 40px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#alt_ok {
+    border-color: blue transparent transparent transparent;
+    border-style: solid;
+    border-width: 80px 45px 0px 45px;
+    width: 0px;
+    height: 0px;
+ }
+.btn:disabled{
+    border-color: aqua;
+ }
+#üst_ok{
+    border-color: transparent transparent blue transparent;
+    border-style: solid;
+    border-width: 0px 40px 80px 40px;
+    width: 0px;
+    height: 0px;
+}
+#sol_ok{
+    border-color: transparent transparent transparent blue;
+    border-style: solid;
+    border-width: 45px 0px 45px 80px;
+    width: 0px;
+    height: 0px;
+}
+#sag_ok{
+    border-color: transparent blue transparent transparent;
+    border-style: solid;
+    border-width: 45px 80px 45px 0px;
+    width: 0px;
+    height: 0px;
+}
+#skr{
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#geriSayim{
+    height: 100px;
+    width: 400px;
+    color: #000000;
+}
